@@ -1,0 +1,109 @@
+.hidden{
+    visibility: hidden;
+}
+
+body{
+    color: aliceblue;
+}
+
+#clock{
+    font-size: 70pt;
+    font-family: 'Nanum Gothic', sans-serif;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#weather{
+    position: fixed;
+    top: 2vh;
+    right: 2vw;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14pt;
+}
+
+#quote{
+    position: fixed;
+    bottom: 2vh;
+    left: 2vw;
+    font-family: 'Caveat', cursive;
+    font-size: 16pt;
+}
+
+table{
+    position: relative;
+    top: 80px;
+    border-collapse: collapse;
+    width: 100%;
+    height: 550px;
+}
+
+td{
+    border: 0.5px solid whitesmoke;
+    border-right: none;
+    border-bottom: none;
+    border-top: none;
+}
+
+td:first-child{
+    text-align: center;
+    width: 60%;
+    border-left: none;
+}
+
+td:last-child{
+    text-align: center;
+}
+
+#loginForm input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 0.5px solid whitesmoke;
+    color: white;
+    font-size: 16pt;
+    font-family: 'Quicksand', sans-serif;
+    padding-left: 10px;
+}
+
+h3{
+    margin: 0px;
+    font-size: 21pt;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#username{
+    font-size: 22pt;
+}
+
+#todoForm input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 0.5px solid whitesmoke;
+    color: white;
+    font-size: 13pt;
+    font-family: 'Quicksand', sans-serif;
+    padding-left: 10px;
+}
+
+ul{
+    margin: 20px auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 150px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14pt;
+    background: rgba(100, 100, 100, 0.5);
+    border-radius: 10px;
+}
+
+li{
+    margin-bottom: 10px;
+}
+
+li:last-child{
+    margin-bottom: 0px;
+}
+
+button{
+    background: transparent;
+    border: none;
+}

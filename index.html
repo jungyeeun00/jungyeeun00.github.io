@@ -2,11 +2,43 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>Welcome!</title>
     <link rel="stylesheet" href="src/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Quicksand&display=swap" rel="stylesheet">
 </head>
 <body>
-    <script src="src/index.js"></script>
-    <h1>Welcome</h1>
+    <div id="weather">
+        <span></span>
+        <span></span>
+    </div>
+    <table>
+        <td>
+            <h1 id="clock">00 : 00 : 00</h1>
+            <form id="loginForm">
+                <input type="text" placeholder="Write your name">
+            </form>
+            <h3 class="hidden">Welcome <span id="username">name</span></h3>
+        </td>
+        <td>
+            <form id="todoForm">
+                <input type="text" placeholder="Write To Do List">
+            </form>
+            <ul id="todo"></ul>
+        </td>
+    </table>
+    <div id="quote">
+        <span></span>
+        <span></span>
+    </div>
+    <script src="src/clock.js"></script>
+    <script src="src/login.js"></script>
+    <script src="src/todo.js"></script>
+    <script src="src/quotes.js"></script>
+    <script src="src/weather.js"></script>
+    <script src="src/background.js"></script>
 </body>
 </html>
